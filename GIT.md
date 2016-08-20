@@ -35,7 +35,22 @@ git config --global credential.helper cache
 
 ### Git Examples
 * Untracked -> Staged
+```
+git add filename
+```
+* Staged -> Untracked
+```
+git reset [HEAD] filename
+```
+* Modified -> Unmodified
+```
+git checkout -- filename
+```
 * Modified -> Staged
 ```
 git add filename
+```
+* Staged -> Modified
+```
+git reset [HEAD] filename
 ```
