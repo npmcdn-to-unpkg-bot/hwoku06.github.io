@@ -34,6 +34,19 @@ git config --global credential.helper cache
 ```
 
 ### Git Examples
+* Check Status
+```
+git status
+git status -s
+(= git status --short)
+```
+  * ```?? A : untracked```
+  * ```_M B : unstaged(modified)```
+  * ```MM B : staged(modified) -> unstaged(modified)```
+  * ```A_ B : staged(added)```
+  * ```M_ B : staged(modified)```
+
+
 * Untracked -> Staged
 * Modified -> Staged
 ```
