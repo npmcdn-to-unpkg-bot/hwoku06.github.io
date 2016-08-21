@@ -61,3 +61,22 @@ git reset [HEAD] filename
 ```
 git checkout -- filename
 ```
+
+* Check Differences Between Unmodified(Staged) & Modified(Unstaged)
+```
+git diff filename
+```
+* Check Differences Between Commited & Staged
+```
+git diff --staged filename
+git diff --cached filename
+```
+
+* Commit
+```
+git commit -m 'commit message'
+```
+* Commit including staging step
+```
+git commit -a -m 'commit message'
+```
